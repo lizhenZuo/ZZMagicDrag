@@ -54,11 +54,8 @@ a landscape gesture drag framework（一个横屏下的手势操作，左边是�
 // 屏幕旋转
 
 - (BOOL)supportsAutorotate
-- 
 {
-
-    return YES;
-    
+    return YES;   
 }
 
 - (UIInterfaceOrientationMask)supportedInterfaceOrientations NS_AVAILABLE_IOS(6_0)
