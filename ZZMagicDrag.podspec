@@ -16,13 +16,13 @@ Pod::Spec.new do |spec|
   详情请查看：https://github.com/lizhenZuo/ZZMagicDrag.git
                    DESC
 
-  spec.homepage     = "https://github.com/lizhenZuo/ZZMagicDrag.gitg"
+  spec.homepage     = "https://github.com/lizhenZuo/ZZMagicDrag.git"
   spec.license      = "MIT"
   spec.author             = { "Zorro" => "1732096868@qq.com" }
   spec.platform     = :ios
   spec.platform     = :ios, "10.0"
   spec.source       = { :git => "https://github.com/lizhenZuo/ZZMagicDrag.git", :tag => spec.version }
   spec.source_files  = "ZZMagicDrag", "ZZMagicDrag/**/*.{h,m}"
-  spec.exclude_files = "Classes/Exclude"
+  #spec.exclude_files = "Classes/Exclude"
 
 end
